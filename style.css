@@ -22,7 +22,7 @@ h1 {
     color: white;
 }
 .block_white {
-    margin-top: 20px;
+    margin: 20px auto;
     padding: 15px;
     background-color: white;
     border-radius: 15px;

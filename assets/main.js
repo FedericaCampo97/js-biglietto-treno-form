@@ -29,4 +29,5 @@ DOMPulsante.addEventListener('click' , function(){
     console.log(prezzoFinale)
     document.getElementById('fullNameTicket').innerHTML = fullName
     document.getElementById('type').innerHTML = typeticket
+    document.getElementById('price').innerHTML = prezzoFinale
 });
