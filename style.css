@@ -44,6 +44,9 @@ h1 {
     color: rgb(125, 204, 6);
     margin-bottom: 7px;
 }
+.btn_block {
+    margin-bottom: 20px;
+}
 .btn_block > button {
     margin: 0px 15px;
     color: rgb(13, 54, 3);
