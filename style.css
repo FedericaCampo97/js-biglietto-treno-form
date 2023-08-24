@@ -66,3 +66,9 @@ h1 {
     height: 100px;
     padding: 10px;
 }
+th{
+    padding-top: 10px;
+}
+table {
+    width: calc(100% - 235px);
+}
