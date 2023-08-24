@@ -66,6 +66,9 @@ h1 {
     height: 100px;
     padding: 10px;
 }
+.block_name > p {
+    margin-top: 24px;
+}
 th{
     padding-top: 10px;
 }
