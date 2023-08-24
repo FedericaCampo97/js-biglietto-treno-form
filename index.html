@@ -4,13 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div>
-        <input type="text" id="fullName">
-        <input type="text" id="km">
-        <input type="text" id="age">
-        <button id="btn_generate">PULSANTE</button>
+    <div class="container">
+        <div>
+            <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+            <div class="block_white">
+                <div class="input_block">
+                    <div>
+                        <p><strong>NOME E COGNOME</strong></p>
+                        <input type="text" id="fullName">
+                    </div>
+                    <div>
+                        <p><strong>KM DA PERCORRERE</strong></p>
+                        <input type="text" id="km">
+                    </div>
+                    <div>
+                        <p><strong>ETA'</strong></p>
+                        <input type="text" id="age">
+                    </div>
+                </div>
+                <div class="btn_block">
+                    <button id="btn_generate"><strong> GENERA </strong></button>
+                    <button><strong>ANNULLA</strong></button>
+                </div>
+            </div>
+            <h1>IL TUO BIGLIETTO</h1>
+            <div class="block_white">
+                <h3>DETTAGLIO PASSEGGERI</h3>
+                <div class="block_table">
+                    <div class="block_name">
+                        <h5>NOME PASSEGGERO</h5>
+                    </div>
+                    <div>
+                        <thead>
+                            <tr>
+                                <th>Offerta</th>
+                                <th>Carrozza</th>
+                                <th>Codice CP</th>
+                                <th>Costo Biglietto</th>
+                            </tr>
+                        </thead>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+        
+        
     </div>
     <script src="./assets/main.js"></script>
 </body>
