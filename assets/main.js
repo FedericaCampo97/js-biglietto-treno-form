@@ -1,6 +1,8 @@
 //Collego il pulsante
 const DOMPulsante = document.getElementById('btn_generate'); 
 console.log(DOMPulsante);
+//dichiaro il prezzo finale
+
 //Inizio funzione
 DOMPulsante.addEventListener('click' , function(){
     //seleziono input name
@@ -25,9 +27,13 @@ DOMPulsante.addEventListener('click' , function(){
         prezzoFinale = prezzoBiglietto 
         typeticket = 'Biglietto Standard'
     }
-    //stampo in console
+    //Indico i centesimi nel prezzo con due decimali 
+    prezzoFinale = prezzoFinale.toFixed(2).toString().replace('.' , ',');
+    //stampo il prezzo finale in console
     console.log(prezzoFinale)
+
+    //Stampo il prezzo finale in pagina
     document.getElementById('fullNameTicket').innerHTML = fullName
     document.getElementById('type').innerHTML = typeticket
-    document.getElementById('price').innerHTML = prezzoFinale
+    document.getElementById('price').innerHTML = prezzoFinale + '€'
 });
